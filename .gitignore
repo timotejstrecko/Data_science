@@ -1,0 +1,41 @@
+# -----------------------------
+# ✅ DÁTOVÉ SÚBORY
+# -----------------------------
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# -----------------------------
+# ✅ MODELY A VÝSTUPY
+# -----------------------------
+models/
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# -----------------------------
+# ✅ JUPYTER NOTEBOOK CACHE
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# ✅ PYTHON & VENV
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+env/
+venv/
+.venv/
+
+# -----------------------------
+# ✅ IDE & SYSTÉMOVÉ SÚBORY
+# -----------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
